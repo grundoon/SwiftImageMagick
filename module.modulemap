@@ -7,8 +7,6 @@ module SwiftImageMagickMac [system] {
 
 module SwiftImageMagickLinux [system] {
   umbrella header "/usr/local/include/ImageMagick-6/wand/MagickWand.h"
-  umbrella header "/usr/local/include/ImageMagick-6/magick/ImageMagick.h"
-  umbrella header "/usr/local/include/ImageMagick-6/magick/MagickCore.h"
   link "MagickWand-6.Q16"
   link "MagickCore-6.Q16"
   export *
